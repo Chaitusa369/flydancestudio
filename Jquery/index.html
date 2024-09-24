@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<body>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+    <div class="ws_images"><ul>
+            <li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_0"/></li>
+            <li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_1"/></li>
+            <li><a href="#"><img src="data1/images/4.jpg" alt="bootstrap carousel" title="4" id="wows1_2"/></a></li>
+            <li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_3"/></li>
+        </ul></div>
+        <div class="ws_bullets"><div>
+            <a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>1</span></a>
+            <a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>2</span></a>
+            <a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>3</span></a>
+            <a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>4</span></a>
+        </div></div>
+    </div>	
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+    <!-- End WOWSlider.com BODY section -->
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        nav{
+            background-color: lightskyblue;
+            padding: 30px;
+            width: 100%;
+            height: auto;
+        }
+        button{
+            width: 100%;
+            height: 50px;
+            margin-bottom: 10px;
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+        #menu{
+            width: 150px;
+            background-color: red;
+
+        }
+    </style>
+    <button id="menu">Menu</button>
+    <nav>
+        <button>Click here</button>
+    <button>Click here</button>
+    <button>Click here</button>
+    <button>Click here</button>
+    <button>Click here</button>
+    </nav>
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(() =>{
+           // $("nav").hide()
+            $("#menu").mouseenter(() =>{
+                $("#menu").animate({
+                    marginTop:"+=200px"
+                })
+            })
+        })
+    </script>
+</body>
+
+</html>

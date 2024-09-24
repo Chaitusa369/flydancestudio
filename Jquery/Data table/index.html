@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.css" />
+  
+<script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
+</head>
+<body>
+    <section>
+        <div>
+            <table class="table" id="myTable">
+                
+                <thead>
+                    <tr>
+                        <th>S. No.</th>
+                        <th>Name</th>
+                        <th>Qualification</th>
+                        <th>Designation</th>
+                        <th>UNIVERSITY ID</th>
+                        </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>1</td>
+                <td>Dr RAGHAVENDRAN</td>
+                <td>Ph. D</td>
+                <td>Professor</td>
+                <td>5598-180416-205022</td>
+                </tr>
+                <tr>
+                <td>2</td>
+                <td>Dr AMIT AGRAWAL</td>
+                <td>Ph. D</td>
+                <td>Professor</td>
+                <td>8208-200920-134624</td>
+                </tr>
+                <tr>
+                <td>3</td>
+                <td>Dr PAPIYA DUTTA</td>
+                <td>Ph. D</td>
+                <td>Professor</td>
+                <td>5933-181122-153718</td>
+                </tr>
+                <tr>
+                <td>4</td>
+                <td>Prof G.KUMARASWAMY RAO</td>
+                <td>ME/M.Tech</td>
+                <td>Professor</td>
+                <td>5958-150413-154246</td>
+                </tr>
+                <tr>
+                <td>5</td>
+                <td>Dr.Ashwani Kumar</td>
+                <td>ME/M.Tech</td>
+                <td>Professor</td>
+                <td>&nbsp;</td>
+                </tr>
+                <tr>
+                <td>6</td>
+                <td>Mrs PRAKRUTHI KULKARNI</td>
+                <td>M. Tech</td>
+                <td>Associate professor</td>
+                <td>5119-191113-162004</td>
+                </tr>
+                <tr>
+                <td>7</td>
+                <td>Dr SUNITA SINHA</td>
+                <td>Ph. D</td>
+                <td>Associate professor</td>
+                <td>3882-220308-132601</td>
+                </tr>
+                <tr>
+                <td>8</td>
+                <td>Dr FAIZAN AHMED</td>
+                <td>Ph. D</td>
+                <td>Associate professor</td>
+                <td>7473-220409-160757</td>
+                </tr>
+                <tr>
+                <td>9</td>
+                <td>Dr ANIRBAN</td>
+                <td>Ph. D</td>
+                <td>Associate professor</td>
+                <td>0040-200921-055313</td>
+                </tr>
+                <tr>
+                <td>10</td>
+                <td>Dr KAMAYANI SRIVASTAV</td>
+                <td>Ph. D</td>
+                <td>Associate professor</td>
+                <td>8115-210326-130433</td>
+                </tr>
+                <tr>
+                <td>11</td>
+                <td>Mr SANKAR REDDY</td>
+                <td>M. Tech</td>
+                <td>Associate professor</td>
+                <td>33150406-164957</td>
+                </tr>
+                <tr>
+                <td>12</td>
+                <td>Mr I RAVI KUMAR</td>
+                <td>M. Tech</td>
+                <td>Associate professor</td>
+                <td>9997-150410-112558</td>
+                </tr>
+                <tr>
+                <td>13</td>
+                <td>Mr JOY SANGEETH RAJ</td>
+                <td>M. Tech</td>
+                <td>Associate professor</td>
+                <td>81150406-111922</td>
+                </tr>
+                <tr>
+                <td>14</td>
+                <td>Mr T V SURESH KUMAR</td>
+                <td>M. Tech</td>
+                <td>Associate professor</td>
+                <td>8697-150428-153633</td>
+                </tr>
+                <tr>
+                <td>15</td>
+                <td>Mrs SHAHANAZ KUTHIRAVATTAV</td>
+                <td>M. Tech</td>
+                <td>Associate professor</td>
+                <td>1897-210326-130746</td>
+                </tr>
+                <tr>
+                <td>16</td>
+                <td>Mr RAMANJANAYULU PATTABHI</td>
+                <td>M. Tech</td>
+                <td>Associate professor</td>
+                <td>8370-171221-014011</td>
+                </tr>
+                <tr>
+                <td>17</td>
+                <td>Mr HINDOL BATTACHARJEE</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>1726-220423-201630</td>
+                </tr>
+                <tr>
+                <td>18</td>
+                <td>Ms K ANUSHA</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>5298-220714-164709</td>
+                </tr>
+                <tr>
+                <td>19</td>
+                <td>Mr AMARTHAPUDI BABU RAO</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>1499-220701-131836</td>
+                </tr>
+                <tr>
+                <td>20</td>
+                <td>Mrs KOMALA DEVI</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>2457-220705-130818</td>
+                </tr>
+                <tr>
+                <td>21</td>
+                <td>Mrs HARIKA</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>5708-220705-163833</td>
+                </tr>
+                <tr>
+                <td>22</td>
+                <td>Mr KHASIM</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>&nbsp;</td>
+                </tr>
+                <tr>
+                <td>23</td>
+                <td>Mr MUQUADAR ALI</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>2499-220712-095245</td>
+                </tr>
+                <tr>
+                <td>24</td>
+                <td>Mr G.RAMESH</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>6827-150426-134608</td>
+                </tr>
+                <tr>
+                <td>25</td>
+                <td>Mr ANJANAYULU BARELLI</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>9528-161025-135108</td>
+                </tr>
+                <tr>
+                <td>26</td>
+                <td>Mr MUTHINENI BHAVITHAVYA</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>6331-170112-120318</td>
+                </tr>
+                <tr>
+                <td>27</td>
+                <td>Mrs JATOTH PRAMEELA</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>1256-180202-164027</td>
+                </tr>
+                <tr>
+                <td>28</td>
+                <td>Mr JATOTH OMJI</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>1471-180421-132219</td>
+                </tr>
+                <tr>
+                <td>29</td>
+                <td>Mrs SUNITA NAMPALLY</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>8144-220707-200709</td>
+                </tr>
+                <tr>
+                <td>30</td>
+                <td>Mr G.SHIVA KUMAR</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>4974-180202-141259</td>
+                </tr>
+                <tr>
+                <td>31</td>
+                <td>Mr PITCHESWARA RAO</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>3273-200222-142441</td>
+                </tr>
+                <tr>
+                <td>32</td>
+                <td>Mr KAILASH SINHA</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>0735-150420-212752</td>
+                </tr>
+                <tr>
+                <td>33</td>
+                <td>Mr M.PRASHANTH</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>0394-160313-172855</td>
+                </tr>
+                <tr>
+                <td>34</td>
+                <td>Mr G.VINOD KUMAR</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>1158-200310-174849</td>
+                </tr>
+                <tr>
+                <td>35</td>
+                <td>Ms N.SOUMYA</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>1980-210326-214158</td>
+                </tr>
+                <tr>
+                <td>36</td>
+                <td>Mr HALAVATHI UPENDAR BABU</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>9001-160307-160213</td>
+                </tr>
+                <tr>
+                <td>37</td>
+                <td>Mrs ANANDA SAMHITHA KESARI</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>0282-210701-193427</td>
+                </tr>
+                <tr>
+                <td>38</td>
+                <td>Mr VYDHA PRADEEP KUMAR</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>23150407-103944</td>
+                </tr>
+                <tr>
+                <td>39</td>
+                <td>Mr AMRUTHAM UPENDRANATH</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>6950-150608-114801</td>
+                </tr>
+                <tr>
+                <td>40</td>
+                <td>Mrs KIRANMAI SANGARAJU</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>2036-171221-112012</td>
+                </tr>
+                <tr>
+                <td>41</td>
+                <td>Mrs ORUGANTI SARITHA</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>5630-190831-181506</td>
+                </tr>
+                <tr>
+                <td>42</td>
+                <td>Mr BODDU SRUJAN</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>3160-200228-171330</td>
+                </tr>
+                <tr>
+                <td>43</td>
+                <td>Mr ANDOJU NAVEEN KUMAR</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>1500-200310-101736</td>
+                </tr>
+                <tr>
+                <td>44</td>
+                <td>Mr NAHID KOUSER</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>2773-200310-152529</td>
+                </tr>
+                <tr>
+                <td>45</td>
+                <td>PANDI MAHENDER</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>3913-200310-161956</td>
+                </tr>
+                <tr>
+                <td>46</td>
+                <td>Mr KARNAM ARAVIND</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>8351-200310-185306</td>
+                </tr>
+                <tr>
+                <td>47</td>
+                <td>Mr ABHISHEK KUMAR</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>6720-200311-131211</td>
+                </tr>
+                <tr>
+                <td>48</td>
+                <td>Mr PRATEEK ASTHANA</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>3371-210322-142915</td>
+                </tr>
+                <tr>
+                <td>49</td>
+                <td>Mr RAJA SHEKAR ALWALA</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>5242-210326-123930</td>
+                </tr>
+                <tr>
+                <td>50</td>
+                <td>Mr SATHISH NIMMANAGOTI</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>6546-210701-182034</td>
+                </tr>
+                <tr>
+                <td>51</td>
+                <td>Mrs KUMMARI SIRISHA</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>1898-210702-131725</td>
+                </tr>
+                <tr>
+                <td>52</td>
+                <td>Mrs KONTHAM GOUTHAMI</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>4556-190215-144443</td>
+                </tr>
+                <tr>
+                <td>53</td>
+                <td>NEETA HITESH INGALE</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>1384-200302-105431</td>
+                </tr>
+                <tr>
+                <td>54</td>
+                <td>Ms.JVL Ramya Sree</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>TOCT22F3427E2221</td>
+                </tr>
+                <tr>
+                <td>55</td>
+                <td>Mr.R.Basavaraju</td>
+                <td>M. Tech</td>
+                <td>Assistant professor</td>
+                <td>TJUN16F1166E2057</td>
+                </tr>
+                
+                </tbody>
+                </table>
+        </div>
+    </section>
+    <script>
+        $(document).ready( function () {
+    $('#myTable').DataTable();
+} );
+    </script>
+</body>
+</html>

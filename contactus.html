@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly Dance studio</title>
+    <link rel="stylesheet" href="ticket.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="ticket.html">
+    <link rel="stylesheet" href="Aboutus.html">
+</head>
+<body>
+    <header>
+        <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="assets/fly logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav" >
+                  <a class="nav-link "  href="index.html">Home</a>
+                  <a class="nav-link" href="Aboutus.html">About us</a>
+                  <a class="nav-link active" aria-current="page" href="contactus.html">Contact Us</a>
+                </div>
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Our Dance Courses
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#Register" >Classical</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#Register" >Western</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#Register" >Belly Dance</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#Register" >Hip-Hop</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#Register" >Bollywood Dance classes</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#Register" >Contemporary Dance</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class=" collapse navbar-collapse  justify-content-end">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#Register" class="btn btn-danger">Register Now</a>
+            </div>
+        </nav>
+        
+        </div>
+       </header>
+
+       <section class="container-fluid ">   
+        <img src="assets/header.png" alt="" class="w-100">
+       </section>
+
+       <section class="container-fluid contact">
+        <div class="row">
+            <div class="col-12">
+                <h1>Are You Ready To Dance?</h1>
+                <p>Whether you have a question, want to enroll in our dance programs, or simply want to learn more about what we offer, our team is here to assist you.</p>
+            </div>
+            <div class="col-12 ">
+              <h5>info@flydancestudio.in</h5>
+            </div>
+            <div class="col-12 ">
+               <h5>+919658975663</h5>
+            </div>
+        </div>
+       </section>
+
+       <section class="container map p-5">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h1>We're Probably
+              Near You</h1>
+              <p>Are You Ready To Dance? Whether you have a question, want to enroll in our dance programs, or simply want to learn more about what we offer, our team is here to assist you.</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497701.18144111056!2d77.0069545805691!3d12.953255113177358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1709658660817!5m2!1sen!2sin" width="420" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+       </section>
+
+       <section class="container-fluid form bg-warning-subtle p-5">
+        <h1>Have A Question? Drop Us a Line</h1>
+        <br>
+        <h2>Get In Touch</h2>
+        <p>We are always in touch for expert support and guidance. Leave your message here, our team will reach out to you soon.</p>
+        <div class="row">
+          <div class="col-12 col-md-6 ">
+            <form action="submitfly.html" onsubmit="return validate()" >
+              <input type="text" placeholder="Enter Name" class="form-control" name="username" id="username">
+              <p class="m-0 text-danger" id="nameerror"></p>
+              
+              <input type="text" placeholder="Enter Mobile Number" class="form-control" name="mobile" id="mobile">
+              <p class="m-0 text-danger" id="mobileerror"></p>
+              
+              <input type="text" placeholder="Enter Email" class="form-control" name="email" id="email">
+              <p class="m-0 text-danger" id="emailerror"></p>
+              
+              <input type="text" placeholder="Your Place" class="form-control" name="place" id="place">
+              <p class="m-0 text-danger" id="placeerror"></p>
+              
+              <textarea name="message" id="message" class=" form-control" cols="100" rows="5" placeholder="Your Message"></textarea>
+              
+              <div class=" mt-3">
+
+                
+                <button type="submit" class="btn btn-dark btn-lg w-100">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="assets/course-3.png" alt="" class="w-100">
+          </div>
+        </div>
+       </section>
+
+       <section class="container-fluid footer bg-dark-subtle p-5">
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-3">
+            <h4>FLY Dance Studio</h4>
+            <p>Dance is one of the most expressive crafts
+              known to mankind. People of all ages and
+              preferences admire dance.</p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h4>Our Dance Courses</h4>
+            <ul>
+              <li>Professional Dance Course</li>
+              <li>Contemporary Dance Course</li>
+              <li>Belly Dance</li>
+              <li>Hip-Hop Dance</li>
+              <li>Bollywood Dance </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h4>FLY Dance Studio</h4>
+            <ul>
+              <li>About us</li>
+              <li>Package</li>
+              <li>Career</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <h4>Get in Touch</h4>
+            <p>info@flydancestudio.in</p>
+            <p>+919658975663</p>
+          </div>
+        </div>
+       </section>
+
+
+       
+       <!--Modal-->
+
+       <div class="modal fade " id="Register">
+        <div class="modal-dialog ">
+          <div class="modal-content bg-warning-subtle">
+            <div class="modal-header">
+              <h4 class="modal-title">Register Now</h4>
+              <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body ">
+              <form action="" >
+                  <input type="text" placeholder="Enter Name" class="form-control" name="" id="">
+                  <br>
+                  <input type="text" placeholder="Enter Mobile Number" class="form-control" name="" id="">
+                  <br>
+                  <input type="text" placeholder="Enter Email" class="form-control" name="" id="">
+                  <br>
+                  <input type="text" placeholder="Enter Place" class="form-control" name="" id="">
+                  <br>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Your Course---</option>
+                    <option value="1">Hip-Hop</option>
+                    <option value="2">Belly-Dance</option>
+                    <option value="3">Contemporary-Dance</option>
+                    <option value="4">Bollywood-Dance</option>
+                    <option value="5">Classical Dance</option>
+                  </select>
+                  <br>
+                  <br>
+                  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+       </div>
+
+       <script src="js/bootstrap.bundle.min.js"></script>
+       <script src="scriptfly.js"></script>
+      
+</body>
+</html>
